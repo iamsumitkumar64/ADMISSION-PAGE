@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADD. PORTAL</title>
+    <link rel="stylesheet" href="FORM.CSS">
+</head>
+
+<body>
+    <div id="subres">
+        <img src="code_quotient.jpg" alt="miss">
+        <img src="code_quotient.jpg" alt="miss">
+    </div>
+    <div id="main">
+        <marquee scrollamount="10" direction="left">HERE'S CODE-QUOTIENT ADMISSION PORTAL COME FORWARD AND TAKE STEP
+            TOWARD YOUR BRIGHT FUTURE</marquee>
+        <button id="add" onclick="hide_show()" style="color:white;background-color: #00ADB5; 
+    font-family: rosemary; font-size: 2vmax; font-weight: 700;">ADD
+            ADMISSION</button>
+        <div id="content" style="visibility: hidden;">
+            <div id="text">
+                <div>
+                    <label for="degree">Degree::></label>
+                    <input type="text" id="degree" required />
+                </div>
+                <div>
+                    <label for="regno">Reg No.::></label>
+                    <input type="text" id="regno" required />
+                </div>
+                <div>
+                    <label for="year">Year::></label>
+                    <input type="date" id="year" required />
+                </div>
+                <div>
+                    <label for="univer">University::></label>
+                    <input type="text" id="univer" required />
+                </div>
+            </div>
+            <div id="subres">
+                <button id="submit" onclick="submit()">SUBMIT</button>
+                <button id="reload" onclick="reload()">RELOAD</button>
+                <button id="reset" onclick="reset()">RESET</button>
+            </div>
+        </div>
+        <div id="table" style="overflow-x:auto;">
+            <table border="2">
+                <thead>
+                    <tr id="head_row">
+                        <th>Sr No.</th>
+                        <th>Degree</th>
+                        <th>Year</th>
+                        <th>Reg No.</th>
+                        <th>University</th>
+                        <th>MODIFICATION</th </tr>
+                </thead>
+                <tbody id="body_row">
+                    <!-- <tr id="body_row">
+                        </tr> -->
+                </tbody>
+            </table>
+        </div>
+        <marquee scrollamount="6" direction="left">THANKS FOR VISITING US......</marquee>
+    </div>
+    <div id="subres">
+        <img src="code_quotient.jpg" alt="miss">
+        <img src="code_quotient.jpg" alt="miss">
+    </div>
+    <footer>
+        <div>CopyRights ©️ 2024</div>
+        <div>Help Center</div>
+        <div>Students</div>
+        <div>Terms</div>
+        <div>Privacy Policy</div>
+    </footer>
+</body>
+<script src="FORM.JS"></script>
+
+</html>

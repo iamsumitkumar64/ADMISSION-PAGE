@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2vmax;
+}
+
+body {
+    width: 100vw;
+    /* height: 100vmax; */
+    /* background-image: url(white-dark-icon-gray-student-study-creative-abstract-powerpoint-background_83817d50d2__960_540.avif); */
+    background-image: url(background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#main {
+    /* width: 120vw; */
+    /* margin-top: 4%; */
+    max-width: 50vw;
+    cursor: help;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: .2vb solid red;
+    box-shadow: 10% 10% 40% black;
+    border-radius: 4vb;
+    animation-name: main;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes main {
+    0% {
+        /* border: 1.2rem solid red; */
+        box-shadow: inset 0px 0px 3vb 3vb rgb(220, 250, 87);
+    }
+
+    50% {
+        /* border: 1.2rem solid rgb(30, 255, 0); */
+        box-shadow: inset 0px 0px 3vb 3vb rgb(255, 130, 57);
+    }
+
+    100% {
+        /* border: 1.2rem solid skyblue; */
+        box-shadow: inset 0px 0px 3vb 3vb skyblue;
+    }
+}
+
+img {
+    width: 10vmax;
+    /* height: 10vmax;   */
+}
+
+#add:hover {
+    cursor: pointer;
+    border: .5vb solid red;
+    box-shadow: 0px 0px 1vb 1vb rgb(58, 71, 77);
+}
+
+marquee {
+    /* margin-top: 2%;
+    margin-bottom: 2%; */
+    color: rgb(255, 255, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+#text>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+input {
+    width: 10vmax;
+    color: black;
+    text-align: start;
+    margin-inline-start: 20%;
+    margin-top: 4%;
+}
+
+#subres {
+    display: flex;
+    justify-content: space-between;
+}
+
+#submit,
+#reset,
+#reload {
+    width: 10vmax;
+    margin-top: 3vmax;
+    cursor: grab;
+    border: 10px solid transparent;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+#submit {
+    /* color: greenyellow; */
+    background-color: #fb8517;
+}
+
+#reload {
+    background-color: white;
+}
+
+#reset {
+    /* color: yellow; */
+    background-color: green;
+}
+
+div>table {
+    max-width: 50vw;
+    color: white;
+    margin-top: 10%;
+    margin-top: 10%;
+    /* max-width: 50vw; */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: .2vb solid aqua;
+    border-radius: 2vb;
+}
+
+footer {
+    color: white;
+    position: static;
+    bottom: 0;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+}
+
+footer>div {
+    margin-right: 1vmax;
+}
+
+footer>div:hover {
+    color: rgb(84, 84, 255);
+    text-decoration: underline;
+}
